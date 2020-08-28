@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Můj To Do List</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="completed">
+                <h5 id="completed">06</h5>
+                <p>Hotové úkoly</p>
+            </div>
+            <div class="total">
+                <h5 id="total">20</h5>
+                <p>Zadané úkoly</p>
+            </div>
+
+        </header>
+
+        <section id="app">
+
+            <div class="container">
+                <div class="task task-template">  
+                    <div class="not-done"></div>
+                    <p>Úkol</p>
+                    <i class="far fa-trash-alt"></i>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="new-task">
+            <input id="task-to-add" type="text" placeholder="Nový úkol">
+            <div class="button">
+                <span class="material-icons">add</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Designed and Developed by Linette Manuel</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
